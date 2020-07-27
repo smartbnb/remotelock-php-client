@@ -26,7 +26,7 @@ class AccessPersonAccessClient extends Client implements ClientInterface
         $response = $this->sendRequest($this->request);
 
         return new AccessPersonAccess(
-            json_decode($response->getBody(), true)['data']
+            json_decode((string) $response->getBody(), true)['data']
         );
     }
 }

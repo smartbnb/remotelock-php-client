@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartbnb\RemoteLockApi\Tests\Integration\Endpoints;
+namespace Smartbnb\RemoteLockApi\Tests\Integration;
 
 use Http\Message\Stream\BufferedStream;
 use Http\Mock\Client;
